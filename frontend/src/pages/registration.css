@@ -1,0 +1,94 @@
+
+/* Main page container */
+.ucrs-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f5f9;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+/* Registration card */
+.ucrs-card {
+  width: 100%;
+  max-width: 500px;
+  background-color: white;
+  padding: 35px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+.ucrs-card h1 {
+  text-align: center;
+  color: #1e3a8a;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+/* Subtitle */
+.subtitle {
+  text-align: center;
+  color: #64748b;
+  margin-bottom: 30px;
+}
+
+/* Form groups */
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Labels */
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #334155;
+}
+
+/* Input fields and dropdown */
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+
+/* Focus effect */
+.form-group input:focus,
+.form-group select:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+/* Register button */
+.ucrs-card button {
+  width: 100%;
+  padding: 13px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Button hover */
+.ucrs-card button:hover {
+  background-color: #1d4ed8;
+}
+
+/* Registration message */
+.message {
+  margin-top: 20px;
+  padding: 12px;
+  text-align: center;
+  background-color: #dcfce7;
+  color: #166534;
+  border-radius: 6px;
+}
